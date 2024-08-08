@@ -1,0 +1,31 @@
+@media (max-width: 1360px){
+	.gallery_zag{
+		width: 550px;
+	}
+}
+@media (max-width: 1280px){
+	.gallery_zag{
+		width: 500px;
+	}
+}
+@media (max-width: 1240px){
+	.gallery_zag{
+		width: 450px;
+	}
+}
+@media (max-width: 1190px){
+	.gallery_zag{
+		width: 400px;
+	}
+}
+@media (max-width: 1130px){
+	.gallery_zag{
+		width: 100%;
+		float: none;
+	}
+	.gallery_short{
+		float: none;
+		margin: 0 auto;
+		width: 640px;
+	}
+}

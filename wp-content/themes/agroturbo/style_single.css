@@ -1,0 +1,314 @@
+h1{
+    font-family: arial;
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 40px;
+    margin-top: 24px;
+}
+.header_top{
+    width: 100%;
+    margin: 0 auto;
+    background: #00495e;
+}
+.header_top_container{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.header_logo{
+    float: left;
+    width: 238px;
+    height: 82px;
+    background:url(images/footer_logo1.png);
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-size: 100%;
+}
+.header_logo a{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    display: block;
+}
+.header_logo2{
+    position: absolute;
+    background: url(images/footer_logo2.png);
+    width: 45px;
+    height: 44px;
+    left: 14px;
+    top: 24px;
+    background-size: 100%;
+}
+.header_tel{
+    float: right;
+    margin-right: 30px;
+    font-family: EuropeExtBold;
+    font-size: 24px;
+    margin-top: 35px;
+}
+.header_tel a{
+    color: #fff;
+    text-decoration: none;
+}
+.popup_close{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 0px;
+    top: 0px;
+    background:url(images/zakr.jpg);
+    background-size: 100%;
+}
+.popup_close a{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.zvonok_fix{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    background-image: url(images/zvonok.png);
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #a1a1a1;
+    z-index: 99;
+    cursor: pointer;
+    webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    border-radius: 45px;    
+    overflow: hidden;
+}
+.zvonok_fix p{
+    position: absolute;
+    right: 100px;
+    font-family: arial;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+    color: #00495e;
+}
+
+.tovar_container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 50px auto;
+}
+.tovar_container h2, .tovar_container li {
+    font-family: arial;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-right: 30px;
+    color: #5c5c5c;
+}
+.tovar_container .no-borders, .tovar_container .no-borders td{
+    border: none;
+}
+.tovar_container .no-borders td{
+    vertical-align: middle;
+}
+.tovar_container li{
+    margin-left: 20px;
+}
+.gallery_short{
+    float: left;
+    height: 665px;
+}
+.miniatures_left{
+    width: 15px;
+    height: 175px;
+    float: left;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.miniatures_left:hover .miniatures_bg{
+    background-position: bottom left;
+}
+.miniatures_right{
+    width: 15px;
+    height: 175px;
+    float: left;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.miniatures_right:hover .miniatures_bg{
+    background-position: bottom right;
+}
+.miniatures_left .miniatures_bg{
+    width: 15px;
+    height: 28px;
+    background:url(images/arrows.png) top left;
+    margin-top: 70px;
+}
+.miniatures_right .miniatures_bg{
+    width: 15px;
+    height: 28px;
+    background:url(images/arrows.png) top right;
+    margin-top: 70px;
+}
+.miniatures_cont{
+    width: 600px;
+    height: 160px;
+    overflow: hidden;
+    margin-left: 3px;
+    margin-right: 3px;
+    float: left;
+}
+.miniatures_cont ul li{
+    list-style: none;
+    float: left;
+    margin-right: 2px;
+    margin-left: 2px;
+    width: 196px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.miniatures_cont ul li a{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.miniatures_cont ul li img{
+    height: 160px;
+    width: auto;
+}
+.gallery{
+    display: none;
+}
+.gallery_image{
+    width: 640px;
+    height: 480px;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #5c5c5c;;
+}
+.gallery_miniatures{
+    width: 640px;
+    margin-top: 10px;
+}
+.gallery_zag{
+    width: 610px;
+    height: 665px;
+    float: right;
+}
+.gallery_zag table{
+    
+}
+.gallery_zag table td, .gallery_zag p{
+    font-family: arial;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-right: 30px;
+    color: #5c5c5c;
+}
+.gallery_zag a, .content a{
+    color: #5c5c5c;
+    font-weight: bold;
+}
+.gallery_zag a:hover{
+    color:#000;
+}
+.gallery_zag img{
+    display: none;
+}
+.content a:hover{
+    text-decoration: none;
+}
+.gallery ul li{
+    list-style: none;
+    width: 195px;
+    height: 175px;
+    overflow: hidden;
+    float: left;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 5px;
+}
+.gallery ul li img{
+    width: inherit;
+    height: 175px;
+}
+.gallery_short .gallery{
+    display: block;
+    float: left;
+    width: 605px;
+    height: 175px;
+    overflow: hidden;
+}
+.price{
+    font-family: arial;
+    font-size: 32px;
+    margin-top: 60px;
+    text-align: center;
+}
+.gallery_zag button{
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 35px;
+    font-family: arial;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #3ebc97;
+    background: #fff;
+    border: 2px solid #3ebc97;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery_zag button:hover{
+    background: #3ebc97;
+    color: #fff;
+}
+.content{
+    width: 100%;
+    font-family: arial;
+    font-size: 16px;
+    color: #5c5c5c;
+    line-height: 28px;
+}
+.content table{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #5c5c5c;
+    border-collapse:collapse;
+}
+.content table th{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.content table td{
+    font-family: arial;
+    font-size: 16px;
+    color: #5c5c5c;
+    line-height: 28px;
+    padding-right:30px; 
+    padding-left: 15px;
+    border: 1px solid #5c5c5c; 
+    margin: 0;  
+}
+.content ol, .content ul{
+    margin-left: 20px;
+}
+.content img{
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #5c5c5c;
+}
+.footer_fixed{
+    position: fixed;
+    bottom: 0;
+}
